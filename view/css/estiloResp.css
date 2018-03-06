@@ -1,0 +1,49 @@
+body {
+  padding-top: 70px;
+  background-image: url("../multimedia/img/logo.png");
+  background-size:100% 100%;
+}
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+.carousel-caption {
+  background-color: black;
+  opacity: 0.3;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.well{
+  opacity: 0.6;
+}
+
+.muestra{
+  width: 100px;
+  height: px;
+}
+
+.sucurs{
+  height: 300px;
+  width: 300px;
+}
+
+.social{
+  height: 60px;
+  width: 60px;
+}
